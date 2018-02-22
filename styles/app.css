@@ -1,0 +1,59 @@
+html,body{
+    width:100%;
+}
+.header{
+    position:relative;
+    height:200px;
+    width:100%;
+}
+.header .title{
+    text-align:center;
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+}
+#app{
+    width:100%;
+}
+#app .add-input{
+    margin:20px 0 20px 0;
+}
+#app .add-input input{
+    margin:0 auto;
+}
+#app .add-input button{
+    border-top-left-radius:0;
+    border-bottom-left-radius:0;
+}
+#app .list{
+    margin-bottom:20px;
+}
+#app .list .item{
+    position:relative;
+    text-align:left;
+    padding: 4px;
+    padding-left:115px;
+    border-radius: 0.4rem;
+    border: 1px solid #ced4da;
+    overflow-x:scroll;
+    margin-bottom:8px;
+}
+#app .list .item button{
+    position: absolute;
+    border-radius: 0;
+    height: 100%;
+    line-height: 100%;
+}
+#app .list .item button.remove{
+    top: 0;
+    left: 0px;
+    border-top-left-radius: 0.4rem;
+    border-bottom-left-radius: 0.4rem;
+    width:36px;
+}
+#app .list .item button.second{
+    top: 0;
+    left: 36px;
+    width:70px;
+}
